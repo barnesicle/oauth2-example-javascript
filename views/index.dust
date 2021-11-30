@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{title}</h1>
+    <p>Welcome to {title}</p>
+    <button onClick="window.location.href = 'https://accounts.google.com/o/oauth2/auth?redirect_uri={redirect_url}&client_id={client_id}&prompt=consent&response_type=code&scope=openid https://www.googleapis.com/auth/gmail.readonly'">Login</button>
+   </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Email</h1>
+    <div>
+            Email Content:
+    </div>
+    <div>
+        {emailContent}
+    </div>
+  </body>
+</html>
